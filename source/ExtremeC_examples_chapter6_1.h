@@ -1,5 +1,5 @@
 // File name: ExtremeC_examples_chapter6_1.h
-// Description: Declarations for attribute sturcture
+// Description: Declarations for attribute structure
 //              and behavior functions
 
 #ifndef EXTREME_C_EXAMPLES_CHAPTER_6_1_H
@@ -13,7 +13,7 @@ typedef struct {
   double fuel;
 } car_t;
 
-// These function declarations are the bevahiors of a car object
+// These function declarations are the behaviors of a car object
 void car_construct(car_t*, const char*);
 void car_destruct(car_t*);
 void car_accelerate(car_t*);
