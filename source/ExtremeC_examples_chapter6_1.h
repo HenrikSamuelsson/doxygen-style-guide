@@ -5,10 +5,12 @@
 #ifndef EXTREME_C_EXAMPLES_CHAPTER_6_1_H
 #define EXTREME_C_EXAMPLES_CHAPTER_6_1_H
 
+#define CAR_NAME_MAX_LENGTH     32
+
 // This structure keeps all the attributes 
 // related to a car object
 typedef struct {
-  char name[32];
+  char name[CAR_NAME_MAX_LENGTH];
   double speed;
   double fuel;
 } car_t;
